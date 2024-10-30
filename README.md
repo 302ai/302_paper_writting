@@ -1,6 +1,6 @@
 # ✍️🤖 Welcome to 302.AI's AI Paper Writing! 🚀✨
 
-[Chinese](README_zh.md) | [English](README.md) | [Japanese](README_ja.md)
+[中文](README_zh.md) | [English](README.md) | [日本語](README_ja.md)
 
 Open-source version of the [AI Paper Writing](https://302.ai/tools/paper/) from [302.AI](https://302.ai).
 You can directly log in to 302.AI for a zero-code, zero-configuration online experience.
