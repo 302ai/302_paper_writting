@@ -1,0 +1,87 @@
+{
+  "article": "文章",
+  "process": {
+    "detai": {
+      "show": "查看详细进度"
+    },
+    "on": "正在创作中",
+    "success": "详细进度"
+  },
+  "HomePage": {
+    "title": "你好世界!"
+  },
+  "session": {
+    "save": {
+      "error": "保存会话失败：文章内容在最大限度地尝试后不可用"
+    }
+  },
+  "footer": {
+    "ai": "内容由AI生成，仅供参考"
+  },
+  "about": {
+    "title": "关于 AI论文写作"
+  },
+  "detail": {
+    "title": "论文详情",
+    "back": "返回",
+    "copy": "复制",
+    "preview": "预览",
+    "edit": "编辑",
+    "copySuccess": "已复制到剪切板",
+    "download": "下载 PDF",
+    "sessionNotFound": "找不到此会话",
+    "apiNotSet": "API 未设置",
+    "taskIdNotSet": "任务 ID 不存在，你可能正在查看一个旧版本的内容，暂不支持",
+    "cannotDownloadMarkdownInEditingMode": "在编辑模式下无法下载 Markdown，请先切换到预览模式",
+    "downloadProecss": {
+      "creating": "正在制作pdf...",
+      "downloading": "下载pdf中",
+      "error": "下载pdf出错"
+    }
+  },
+  "home": {
+    "title": "AI 论文写作",
+    "login": {
+      "error": "登录信息有误，请手动登录！"
+    },
+    "header": {
+      "title": "AI 论文写作",
+      "placeholder": "输入你想研究的主题",
+      "start": "开始",
+      "starting": "创作中...",
+      "language": "选择语言",
+      "empty": "请输入研究的主题",
+      "history": {
+        "title": "历史记录",
+        "search": {
+          "placeholder": "搜索您的论文",
+          "no_results": "未找到相关结果",
+          "loading": "搜索中..."
+        },
+        "empty": "您的搜索历史为空",
+        "deleteAll": "删除全部",
+        "deleteSuccess": "成功删除 {count} 项",
+        "deleteConfirm": "确认删除吗？",
+        "close": "关闭"
+      }
+    },
+    "create": {
+      "success": "论文创作成功"
+    }
+  },
+  "auth": {
+    "title": "需要分享码",
+    "description": "创建者开启了验证, 请在下方填入分享码",
+    "placeholder": "请输入分享码",
+    "errorMessage": "更多请访问",
+    "confirmButton": "确认",
+    "rememberCode": "记住分享码",
+    "error": {
+      "tool_deleted": "该工具已删除",
+      "tool_disabled": "该工具已禁用",
+      "share_code_error": "分享码错误",
+      "network_error": "网络错误",
+      "unknown_error": "未知错误"
+    }
+  }
+}

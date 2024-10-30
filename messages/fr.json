@@ -1,0 +1,87 @@
+{
+  "article": "Article",
+  "process": {
+    "detai": {
+      "show": "Voir les détails de l'avancement"
+    },
+    "on": "En cours de création",
+    "success": "Détails de l'avancement"
+  },
+  "HomePage": {
+    "title": "Bonjour le monde !"
+  },
+  "session": {
+    "save": {
+      "error": "Échec de la sauvegarde de la session : le contenu de l'article n'est pas disponible après un nombre maximal de tentatives"
+    }
+  },
+  "footer": {
+    "ai": "Contenu généré par l'IA, à titre de référence uniquement"
+  },
+  "about": {
+    "title": "À propos de la rédaction de thèse par IA"
+  },
+  "detail": {
+    "title": "Détails de la thèse",
+    "back": "Retour",
+    "copy": "Copier",
+    "preview": "Aperçu",
+    "edit": "Modifier",
+    "copySuccess": "Copié dans le presse-papiers",
+    "download": "Télécharger PDF",
+    "sessionNotFound": "Session introuvable",
+    "apiNotSet": "API non configurée",
+    "taskIdNotSet": "L'ID de tâche n'existe pas, vous consultez peut-être une ancienne version du contenu, non pris en charge pour le moment",
+    "cannotDownloadMarkdownInEditingMode": "Impossible de télécharger le Markdown en mode édition, veuillez d'abord passer en mode aperçu",
+    "downloadProecss": {
+      "creating": "Création du PDF en cours...",
+      "downloading": "Téléchargement du PDF en cours",
+      "error": "Erreur lors du téléchargement du PDF"
+    }
+  },
+  "home": {
+    "title": "Rédaction de thèse par IA",
+    "login": {
+      "error": "Informations de connexion incorrectes, veuillez vous connecter manuellement !"
+    },
+    "header": {
+      "title": "Rédaction de thèse par IA",
+      "placeholder": "Entrez le sujet que vous souhaitez étudier",
+      "start": "Commencer",
+      "starting": "Création en cours...",
+      "language": "Choisir la langue",
+      "empty": "Veuillez entrer le sujet de recherche",
+      "history": {
+        "title": "Historique",
+        "search": {
+          "placeholder": "Rechercher vos thèses",
+          "no_results": "Aucun résultat trouvé",
+          "loading": "Recherche en cours..."
+        },
+        "empty": "Votre historique de recherche est vide",
+        "deleteAll": "Tout supprimer",
+        "deleteSuccess": "{count} éléments supprimés avec succès",
+        "deleteConfirm": "Confirmer la suppression ?",
+        "close": "Fermer"
+      }
+    },
+    "create": {
+      "success": "Thèse créée avec succès"
+    }
+  },
+  "auth": {
+    "title": "Code de partage requis",
+    "description": "Le créateur a activé la vérification, veuillez entrer le code de partage ci-dessous",
+    "placeholder": "Veuillez entrer le code de partage",
+    "errorMessage": "Pour plus d'informations, visitez",
+    "confirmButton": "Confirmer",
+    "rememberCode": "Se souvenir du code de partage",
+    "error": {
+      "tool_deleted": "Cet outil a été supprimé",
+      "tool_disabled": "Cet outil a été désactivé",
+      "share_code_error": "Code de partage incorrect",
+      "network_error": "Erreur réseau",
+      "unknown_error": "Erreur inconnue"
+    }
+  }
+}
