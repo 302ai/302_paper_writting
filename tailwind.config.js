@@ -1,0 +1,182 @@
+import { nextui } from '@nextui-org/theme';
+
+/** @type {import('tailwindcss').Config} */
+module.exports = {
+  content: [
+    './components/**/*.{js,ts,jsx,tsx,mdx}',
+    './app/**/*.{js,ts,jsx,tsx,mdx}',
+    './node_modules/@nextui-org/theme/dist/**/*.{js,ts,jsx,tsx}',
+  ],
+  theme: {
+    extend: {},
+  },
+  darkMode: 'class',
+  plugins: [
+    nextui({
+      themes: {
+        light: {
+          colors: {
+            background: '#FFFFFF', // or DEFAULT
+            foreground: '#11181C', // or 50 to 900 DEFAULT
+            primary: {
+              100: '#EFDDFE',
+              200: '#DDBCFE',
+              300: '#C79BFC',
+              400: '#B381F9',
+              500: '#9458F5',
+              600: '#7240D2',
+              700: '#542CB0',
+              800: '#3A1C8E',
+              900: '#271075',
+              foreground: '#FFFFFF',
+              DEFAULT: '#9458F5',
+            },
+            success: {
+              100: '#EDFBD3',
+              200: '#D8F8A8',
+              300: '#B7EC7A',
+              400: '#95D956',
+              500: '#67C126',
+              600: '#4DA51B',
+              700: '#378A13',
+              800: '#246F0C',
+              900: '#175C07',
+              foreground: '#FFFFFF',
+              DEFAULT: '#67C126',
+            },
+            info: {
+              100: '#D2F6FE',
+              200: '#A6E9FE',
+              300: '#7AD6FD',
+              400: '#58C1FB',
+              500: '#22A0F9',
+              600: '#187CD6',
+              700: '#115DB3',
+              800: '#0A4290',
+              900: '#062E77',
+              foreground: '#FFFFFF',
+              DEFAULT: '#22A0F9',
+            },
+            warning: {
+              100: '#FFF7CD',
+              200: '#FFED9B',
+              300: '#FFE169',
+              400: '#FFD443',
+              500: '#FFC005',
+              600: '#DB9F03',
+              700: '#B78002',
+              800: '#936301',
+              900: '#7A4F00',
+              foreground: '#000000',
+              DEFAULT: '#FFC005',
+            },
+            danger: {
+              100: '#FFE4DE',
+              200: '#FFC4BD',
+              300: '#FF9E9C',
+              400: '#FF838D',
+              500: '#FF5B77',
+              600: '#DB426A',
+              700: '#B72D5F',
+              800: '#931D52',
+              900: '#7A114A',
+              foreground: '#FFFFFF',
+              DEFAULT: '#FF5B77',
+            },
+          },
+        },
+        dark: {
+          colors: {
+            background: '#11181C', // or DEFAULT
+            foreground: '#FFFFFF', // or 50 to 900 DEFAULT
+            primary: {
+              100: '#EFDDFE',
+              200: '#DDBCFE',
+              300: '#C79BFC',
+              400: '#B381F9',
+              500: '#9458F5',
+              600: '#7240D2',
+              700: '#542CB0',
+              800: '#3A1C8E',
+              900: '#271075',
+              foreground: '#FFFFFF',
+              DEFAULT: '#9458F5',
+            },
+            success: {
+              100: '#EDFBD3',
+              200: '#D8F8A8',
+              300: '#B7EC7A',
+              400: '#95D956',
+              500: '#67C126',
+              600: '#4DA51B',
+              700: '#378A13',
+              800: '#246F0C',
+              900: '#175C07',
+              foreground: '#FFFFFF',
+              DEFAULT: '#67C126',
+            },
+            info: {
+              100: '#D2F6FE',
+              200: '#A6E9FE',
+              300: '#7AD6FD',
+              400: '#58C1FB',
+              500: '#22A0F9',
+              600: '#187CD6',
+              700: '#115DB3',
+              800: '#0A4290',
+              900: '#062E77',
+              foreground: '#FFFFFF',
+              DEFAULT: '#22A0F9',
+            },
+            warning: {
+              100: '#FFF7CD',
+              200: '#FFED9B',
+              300: '#FFE169',
+              400: '#FFD443',
+              500: '#FFC005',
+              600: '#DB9F03',
+              700: '#B78002',
+              800: '#936301',
+              900: '#7A4F00',
+              foreground: '#000000',
+              DEFAULT: '#FFC005',
+            },
+            danger: {
+              100: '#FFE4DE',
+              200: '#FFC4BD',
+              300: '#FF9E9C',
+              400: '#FF838D',
+              500: '#FF5B77',
+              600: '#DB426A',
+              700: '#B72D5F',
+              800: '#931D52',
+              900: '#7A114A',
+              foreground: '#FFFFFF',
+              DEFAULT: '#FF5B77',
+            },
+          },
+        },
+      },
+    }),
+    function ({ addBase, theme }) {
+      addBase({
+        '::-webkit-scrollbar': {
+          width: '8px',
+          height: '8px',
+        },
+        '::-webkit-scrollbar-track': {
+          backgroundColor: theme('colors.gray.100', '#f1f1f1'),
+          borderRadius: '4px',
+        },
+        '::-webkit-scrollbar-thumb': {
+          backgroundColor: theme('colors.gray.300', '#888'),
+          borderRadius: '4px',
+        },
+        '::-webkit-scrollbar-thumb:hover': {
+          backgroundColor: theme('colors.gray.400', '#555'),
+        },
+      });
+    },
+    require('@tailwindcss/typography'),
+  ],
+};

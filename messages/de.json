@@ -1,0 +1,87 @@
+{
+  "article": "Artikel",
+  "process": {
+    "detai": {
+      "show": "Detaillierten Fortschritt anzeigen"
+    },
+    "on": "Wird erstellt",
+    "success": "Detaillierter Fortschritt"
+  },
+  "HomePage": {
+    "title": "Hallo Welt!"
+  },
+  "session": {
+    "save": {
+      "error": "Sitzung konnte nicht gespeichert werden: Artikelinhalt nach maximalen Versuchen nicht verfügbar"
+    }
+  },
+  "footer": {
+    "ai": "Inhalt von KI generiert, nur als Referenz"
+  },
+  "about": {
+    "title": "Über KI-Aufsatzschreiben"
+  },
+  "detail": {
+    "title": "Aufsatzdetails",
+    "back": "Zurück",
+    "copy": "Kopieren",
+    "preview": "Vorschau",
+    "edit": "Bearbeiten",
+    "copySuccess": "In die Zwischenablage kopiert",
+    "download": "PDF herunterladen",
+    "sessionNotFound": "Sitzung nicht gefunden",
+    "apiNotSet": "API nicht eingerichtet",
+    "taskIdNotSet": "Aufgaben-ID existiert nicht, Sie sehen möglicherweise eine alte Version des Inhalts, die derzeit nicht unterstützt wird",
+    "cannotDownloadMarkdownInEditingMode": "Markdown kann im Bearbeitungsmodus nicht heruntergeladen werden, bitte wechseln Sie zuerst in den Vorschaumodus",
+    "downloadProecss": {
+      "creating": "PDF wird erstellt...",
+      "downloading": "PDF wird heruntergeladen",
+      "error": "Fehler beim Herunterladen des PDFs"
+    }
+  },
+  "home": {
+    "title": "KI-Aufsatzschreiben",
+    "login": {
+      "error": "Anmeldeinformationen falsch, bitte manuell anmelden!"
+    },
+    "header": {
+      "title": "KI-Aufsatzschreiben",
+      "placeholder": "Geben Sie Ihr Forschungsthema ein",
+      "start": "Beginnen",
+      "starting": "Wird erstellt...",
+      "language": "Sprache auswählen",
+      "empty": "Bitte geben Sie ein Forschungsthema ein",
+      "history": {
+        "title": "Verlauf",
+        "search": {
+          "placeholder": "Durchsuchen Sie Ihre Aufsätze",
+          "no_results": "Keine Ergebnisse gefunden",
+          "loading": "Suche läuft..."
+        },
+        "empty": "Ihr Suchverlauf ist leer",
+        "deleteAll": "Alles löschen",
+        "deleteSuccess": "{count} Einträge erfolgreich gelöscht",
+        "deleteConfirm": "Löschen bestätigen?",
+        "close": "Schließen"
+      }
+    },
+    "create": {
+      "success": "Aufsatz erfolgreich erstellt"
+    }
+  },
+  "auth": {
+    "title": "Freigabecode erforderlich",
+    "description": "Der Ersteller hat die Authentifizierung aktiviert. Bitte geben Sie unten den Freigabecode ein",
+    "placeholder": "Bitte Freigabecode eingeben",
+    "errorMessage": "Für mehr Informationen besuchen Sie",
+    "confirmButton": "Bestätigen",
+    "rememberCode": "Freigabecode merken",
+    "error": {
+      "tool_deleted": "Dieses Tool wurde gelöscht",
+      "tool_disabled": "Dieses Tool wurde deaktiviert",
+      "share_code_error": "Freigabecode falsch",
+      "network_error": "Netzwerkfehler",
+      "unknown_error": "Unbekannter Fehler"
+    }
+  }
+}

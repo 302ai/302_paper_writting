@@ -1,0 +1,87 @@
+{
+  "article": "記事",
+  "process": {
+    "detai": {
+      "show": "詳細な進捗を表示"
+    },
+    "on": "作成中",
+    "success": "詳細な進捗状況"
+  },
+  "HomePage": {
+    "title": "こんにちは、世界！"
+  },
+  "session": {
+    "save": {
+      "error": "会話の保存に失敗しました：記事の内容が最大限の試行後も利用できません"
+    }
+  },
+  "footer": {
+    "ai": "内容はAIによって生成されたものであり、参考のためのみにご利用ください"
+  },
+  "about": {
+    "title": "AI論文作成について"
+  },
+  "detail": {
+    "title": "論文の詳細",
+    "back": "戻る",
+    "copy": "コピー",
+    "preview": "プレビュー",
+    "edit": "編集",
+    "copySuccess": "クリップボードにコピーしました",
+    "download": "PDF をダウンロード",
+    "sessionNotFound": "この会話が見つかりません",
+    "apiNotSet": "API が設定されていません",
+    "taskIdNotSet": "タスクIDが存在しません。古いバージョンの内容を見ている可能性があります。現時点ではサポートされていません",
+    "cannotDownloadMarkdownInEditingMode": "編集モードではMarkdownをダウンロードできません。まずプレビューモードに切り替えてください",
+    "downloadProecss": {
+      "creating": "PDFの作成中....",
+      "downloading": "PDFのダウンロード中",
+      "error": "PDFのダウンロード中にエラーが発生しました"
+    }
+  },
+  "home": {
+    "title": "AI論文作成",
+    "login": {
+      "error": "ログイン情報が正しくありません。手動でログインしてください！"
+    },
+    "header": {
+      "title": "AI論文作成",
+      "placeholder": "研究したいテーマを入力してください",
+      "start": "開始",
+      "starting": "作成中...",
+      "language": "言語を選択してください",
+      "empty": "研究テーマを入力してください",
+      "history": {
+        "title": "履歴",
+        "search": {
+          "placeholder": "論文を検索",
+          "no_results": "関連する結果が見つかりませんでした",
+          "loading": "検索中..."
+        },
+        "empty": "検索履歴が空です",
+        "deleteAll": "すべて削除",
+        "deleteSuccess": "{count} 件の削除に成功しました",
+        "deleteConfirm": "削除を確認しますか？？",
+        "close": "閉じる"
+      }
+    },
+    "create": {
+      "success": "論文作成に成功しました"
+    }
+  },
+  "auth": {
+    "title": "共有コードが必要です",
+    "description": "作成者が認証を有効にしていますので、下のフィールドに共有コードを入力してください",
+    "placeholder": "共有コードを入力してください",
+    "errorMessage": "詳細については以下のリンクをご参照ください",
+    "confirmButton": "確認",
+    "rememberCode": "共有コードを記憶",
+    "error": {
+      "tool_deleted": "このツールは削除されました",
+      "tool_disabled": "このツールは無効になっています",
+      "share_code_error": "共有コードが間違っています",
+      "network_error": "ネットワークエラー",
+      "unknown_error": "不明なエラー"
+    }
+  }
+}
