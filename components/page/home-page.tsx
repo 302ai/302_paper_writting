@@ -11,6 +11,7 @@ import LanguageSwitch from '@/components/language-switcher';
 import { ProgressDisplay } from '@/components/progress-display';
 import { SessionState, useSessionStore } from '@/hooks/use-session-store';
 import { useLanguageContext } from '@/providers/language-provider';
+import { showBrand } from '@/utils/brand';
 import { eventCenter } from '@/utils/event-center';
 
 export default function HomePage() {
@@ -157,7 +158,7 @@ export default function HomePage() {
         ref={footerRef}
         className="flex w-full items-center justify-center py-3"
       >
-        <Footer chinese={language === 'zh'} />
+        {showBrand && <Footer chinese={language === 'zh'} />}
       </footer>
     </section>
   );

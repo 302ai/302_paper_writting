@@ -27,6 +27,7 @@ import { paperPDFURL } from '@/config/mode';
 import { useSessionManager } from '@/hooks/use-session-store';
 import { useLanguageContext } from '@/providers/language-provider';
 import { Session } from '@/types';
+import { showBrand } from '@/utils/brand';
 pdfMake.vfs = pdfFonts.pdfMake.vfs;
 
 const notoSansScNormal =
@@ -245,11 +246,13 @@ export default function DetailPage({
       </div>
       <div className="container mx-auto flex min-h-screen min-w-[375px] max-w-[1280px] flex-col">
         <div className="flex h-32 items-center justify-center space-x-4">
-          <Image
-            alt="302"
-            className="size-6 object-contain sm:size-8 md:size-10"
-            src="https://file.302.ai/gpt/imgs/5b36b96aaa052387fb3ccec2a063fe1e.png"
-          />
+          {showBrand && (
+            <Image
+              alt="302"
+              className="size-6 object-contain sm:size-8 md:size-10"
+              src="https://file.302.ai/gpt/imgs/5b36b96aaa052387fb3ccec2a063fe1e.png"
+            />
+          )}
           <h1 className={title({ size: 'sm' })}>{t('home.header.title')}</h1>
         </div>
 
@@ -370,7 +373,7 @@ export default function DetailPage({
             </div>
           </div>
         </div>
-        <Footer chinese={language === 'zh'} />
+        {showBrand && <Footer chinese={language === 'zh'} />}
       </div>
 
       <Modal

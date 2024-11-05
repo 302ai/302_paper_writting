@@ -5,6 +5,8 @@ import { Toaster } from 'react-hot-toast';
 
 import { Providers } from './providers';
 
+import { showBrand } from '@/utils/brand';
+
 export const maxDuration = 600;
 
 export const metadata: Metadata = {
@@ -41,11 +43,12 @@ export default async function RootLayout({
           <Toaster />
           {children}
         </Providers>
-        <Script
-          id="show-customer-chat"
-          strategy="afterInteractive"
-        >
-          {`
+        {showBrand && (
+          <Script
+            id="show-customer-chat"
+            strategy="afterInteractive"
+          >
+            {`
               window.onload = function () {
               const width = document.body.clientWidth;
               if (width <= 768) {
@@ -56,8 +59,9 @@ export default async function RootLayout({
                 "https://assets.salesmartly.com/js/project_177_61_1649762323.js";
               document.body.appendChild(script);
             };
-          `}
-        </Script>
+            `}
+          </Script>
+        )}
       </body>
     </html>
   );

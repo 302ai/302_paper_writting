@@ -31,6 +31,7 @@ import { API_KEY, MODEL_NAME, paperWritingURL, REGION } from '@/config/mode';
 import { useSessionManager } from '@/hooks/use-session-store';
 import { useLanguageContext } from '@/providers/language-provider';
 import { Session } from '@/types';
+import { showBrand } from '@/utils/brand';
 import { eventCenter } from '@/utils/event-center';
 import { handleEvent } from '@/utils/event-handler';
 
@@ -243,11 +244,13 @@ const Header = forwardRef<HTMLElement, HeaderProps>(
         )}
       >
         <div className="flex items-center space-x-4">
-          <Image
-            alt="302"
-            className="size-6 object-contain sm:size-8 md:size-10"
-            src="https://file.302.ai/gpt/imgs/5b36b96aaa052387fb3ccec2a063fe1e.png"
-          />
+          {showBrand && (
+            <Image
+              alt="302"
+              className="size-6 object-contain sm:size-8 md:size-10"
+              src="https://file.302.ai/gpt/imgs/5b36b96aaa052387fb3ccec2a063fe1e.png"
+            />
+          )}
           <h1 className={title({ size: 'sm' })}>{t('home.header.title')}</h1>
         </div>
         <div className="flex w-full flex-col items-center justify-center gap-2 sm:flex-row">
