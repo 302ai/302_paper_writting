@@ -2,9 +2,9 @@
 
 <p align="center">AI 論文執筆：ユーザーが指定した課題に基づき、ネット検索を通じて大量の関連情報を検索し、それらを統合して高品質の論文を生成し、体裁の良い PDF ファイルとしてダウンロードできる。</p>
 
-<p align="center"><a href="https://302.ai/tools/word/" target="blank"><img src="https://file.302ai.cn/gpt/imgs/github/302_badge.png" /></a></p >
+<p align="center"><a href="https://302.ai/ja/tools/paper/" target="blank"><img src="https://file.302ai.cn/gpt/imgs/github/302_badge.png" /></a></p >
 
-<p align="center"><a href="README zh.md">中文</a> | <a href="README.md">English</a> | <a href="README_ja.md">日本語</a></p>
+<p align="center"><a href="README_zh.md">中文</a> | <a href="README.md">English</a> | <a href="README_ja.md">日本語</a></p>
 
 ![インターフェースプレビュー](docs/论文写作jp.png)
 
