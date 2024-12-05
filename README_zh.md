@@ -2,9 +2,9 @@
 
 <p align="center">AI论文写作根据用户指定的课题，通过联网搜索搜寻大量相关信息加以整合生成一份高质量的论文，可下载为排版清晰的PDF文件。</p>
 
-<p align="center"><a href="https://302.ai/tools/word/" target="blank"><img src="https://file.302ai.cn/gpt/imgs/github/302_badge.png" /></a></p >
+<p align="center"><a href="https://302.ai/tools/paper/" target="blank"><img src="https://file.302ai.cn/gpt/imgs/github/302_badge.png" /></a></p >
 
-<p align="center"><a href="README zh.md">中文</a> | <a href="README.md">English</a> | <a href="README_ja.md">日本語</a></p>
+<p align="center"><a href="README_zh.md">中文</a> | <a href="README.md">English</a> | <a href="README_ja.md">日本語</a></p>
 
 ![界面预览](docs/论文写作.png)
 
