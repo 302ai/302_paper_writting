@@ -2,13 +2,13 @@
 
 <p align="center">AI论文写作根据用户指定的课题，通过联网搜索搜寻大量相关信息加以整合生成一份高质量的论文，可下载为排版清晰的PDF文件。</p>
 
-<p align="center"><a href="https://302.ai/tools/paper/" target="blank"><img src="https://file.302.ai/gpt/imgs/github/20250102/72a57c4263944b73bf521830878ae39a.png" /></a></p >
+<p align="center"><a href="https://302.ai/product/detail/32" target="blank"><img src="https://file.302.ai/gpt/imgs/github/20250102/72a57c4263944b73bf521830878ae39a.png" /></a></p >
 
 <p align="center"><a href="README_zh.md">中文</a> | <a href="README.md">English</a> | <a href="README_ja.md">日本語</a></p>
 
 ![界面预览](docs/论文写作.png)
 
-来自[302.AI](https://302.ai)的[AI论文写作](https://302.ai/tools/paper/)的开源版本。
+来自[302.AI](https://302.ai)的[AI论文写作](https://302.ai/product/detail/32)的开源版本。
 你可以直接登录302.AI，零代码零配置使用在线版本。
 或者对本项目根据自己的需求进行修改，传入302.AI的API KEY，自行部署。
 
